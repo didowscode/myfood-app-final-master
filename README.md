@@ -2,7 +2,7 @@
 
 Este respositório contém a implementação da aplicação feita no curso de Angular. O bundle para começar o seu projeto está [aqui].
 
-[aqui]: https://github.com/didowscode/myfood-app-starter
+[aqui]: https://github.com/didowscode/myfood-app-starter-master
 
 ## 1. Passos para começar
 
