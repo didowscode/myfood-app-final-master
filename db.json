@@ -1,210 +1,210 @@
 {
   "restaurants": [
     {
-      "id": "bread-bakery",
-      "name": "Bread & Bakery",
-      "category": "Padaria",
+      "id": "burger-spot",
+      "name": "Burger Spot",
+      "category": "Fast-Food",
       "deliveryEstimate": "25m",
-      "rating": 4.9,
-      "imagePath": "assets/img/restaurants/breadbakery.png",
-      "about": "A Bread & Brakery tem 40 anos de mercado. Fazemos os melhores doces e pães. Compre e confira.",
-      "hours": "Funciona de segunda à sexta, de 8h às 23h"
+      "rating": 4.5,
+      "imagePath": "assets/img/restaurants/burger.png",
+      "about": "A Burger Spot, é especializada em comida Fast-Food. E terá o prazer em saciar sua fome!",
+      "hours": "Funciona de segunda à sexta, de 19h às 00h"
     },
     {
-      "id": "burger-house",
-      "name": "Burger House",
-      "category": "Hamburgers",
-      "deliveryEstimate": "100m",
-      "rating": 3.5,
-      "imagePath": "assets/img/restaurants/burgerhouse.png",
-      "about": "40 anos se especializando em trash food.",
-      "hours": "Funciona todos os dias, de 10h às 22h"
+      "id": "grills-barbecue-and-bar",
+      "name": "Grills Barbecue and Bar",
+      "category": "Restaurante",
+      "deliveryEstimate": "40-65m",
+      "rating": 4.5,
+      "imagePath": "assets/img/restaurants/grills.png",
+      "about": "A casa mais tradicional da cidade, peça já seu prato.",
+      "hours": "Funciona todos os dias, de 10h às 23h"
     },
     {
-      "id": "coffee-corner",
-      "name": "Coffee Corner",
-      "category": "Cafeteria",
-      "deliveryEstimate": "30-40m",
-      "rating": 4.8,
-      "imagePath": "assets/img/restaurants/coffeecorner.png",
-      "about": "A Coffe Corner foi eleita a melhor cafeteria da cidade.",
-      "hours": "Funciona de segunda à sábado, de 6h às 22h"
+      "id": "hotchicken",
+      "name": "Hot Chicken",
+      "category": "Galeto",
+      "deliveryEstimate": "40-55m",
+      "rating": 4.5,
+      "imagePath": "assets/img/restaurants/hotchicken.png",
+      "about": "Especializados em galetos e comida italiana.",
+      "hours": "Funciona de segunda à sábado, de 11h às 00h"
     },
     {
-      "id": "green-food",
-      "name": "Green Food",
+      "id": "organic-shop",
+      "name": "Organic Shop - 100% Natural",
       "category": "Saudável",
-      "deliveryEstimate": "75m",
+      "deliveryEstimate": "20m",
       "rating": 4.1,
-      "imagePath": "assets/img/restaurants/greenfood.png",
-      "about": "Comida saudável é no Green Food. Compramos barato, vendemos caro. ;)",
+      "imagePath": "assets/img/restaurants/organic.png",
+      "about": "Comida saudável é na Organic Shop. Comida 100% natural, direto do produto.",
       "hours": "Somente em horário de almoço, das 11h às 15h"
     },
     {
-      "id": "ice-cream",
-      "name": "Ice Cream",
-      "category": "Sorvetes",
+      "id": "mexican-food",
+      "name": "Mexican Food Truck",
+      "category": "Mexicana",
       "deliveryEstimate": "40-65m",
-      "rating": 4.5,
-      "imagePath": "assets/img/restaurants/icy.png",
-      "about": "A Ice Cream é uma sorveteria inovadora.",
+      "rating": 3.5,
+      "imagePath": "assets/img/restaurants/mexican.png",
+      "about": "Arriba Muchacho!!! Comida apimentada é com a gente.",
       "hours": "Funciona todos os dias, de 10h às 1h"
     },
     {
-      "id": "tasty-treats",
-      "name": "Tasty Treats",
-      "category": "Doces",
-      "deliveryEstimate": "20m",
-      "rating": 4.4,
-      "imagePath": "assets/img/restaurants/tasty.png",
-      "about": "A doceria com mais tradição da cidade",
+      "id": "pizza-time",
+      "name": "Pizza Time",
+      "category": "Pizza",
+      "deliveryEstimate": "40-65m",
+      "rating": 4.3,
+      "imagePath": "assets/img/restaurants/pizza.png",
+      "about": "HUMMM!! Esse cheirinho é da nossa deliciosa pizza, peça logo!!",
       "hours": "Funciona de segunda à sábado, de 8h às 23h"
     }
   ],
   "menu": [
     {
-      "id": "cup-cake",
-      "imagePath": "assets/img/foods/cupcake.png",
-      "name": "Cup Cake",
-      "description": "Cup Cake recheado de Doce de Leite",
-      "price": 8.7,
-      "restaurantId": "bread-bakery"
+      "id": "x-salada",
+      "imagePath": "assets/img/foods/salada.png",
+      "name": "X-Salada",
+      "description": "Tradicional X-Salada que você respeita",
+      "price": 18.0,
+      "restaurantId": "burger-spot"
     },
     {
-      "id": "donut",
-      "imagePath": "assets/img/foods/donut.png",
-      "name": "Donut",
-      "description": "Coberto com chantilly",
-      "price": 2.5,
-      "restaurantId": "bread-bakery"
+      "id": "misto-quente",
+      "imagePath": "assets/img/foods/misto.png",
+      "name": "Misto quente da casa",
+      "description": "Delicioso Misto quente, com o toque especial da casa",
+      "price": 12.0,
+      "restaurantId": "burger-spot"
     },
     {
-      "id": "bread",
-      "imagePath": "assets/img/foods/bread.png",
-      "name": "Pão Artesanal Italiano",
-      "description": "Pão artesanal com queijos italianos",
-      "price": 15.9,
-      "restaurantId": "bread-bakery"
+      "id": "fritas",
+      "imagePath": "assets/img/foods/fritas.png",
+      "name": "Fritas",
+      "description": "Aquela batata-frita que vai matar sua fome",
+      "price": 8.0,
+      "restaurantId": "burger-spot"
     },
     {
-      "id": "burger",
-      "imagePath": "assets/img/foods/burger.png",
-      "name": "Classic Burger",
-      "description": "O clássico. Não tem como errar.",
-      "price": 18.5,
-      "restaurantId": "burger-house"
-    },
-    {
-      "id": "fries",
-      "imagePath": "assets/img/foods/fries.png",
-      "name": "Batatas Fritas",
-      "description": "Batatas fritas crocantes",
-      "price": 5.5,
-      "restaurantId": "burger-house"
-    },
-    {
-      "id": "coke.png",
+      "id": "coke",
       "imagePath": "assets/img/foods/coke.png",
       "name": "Refrigerante",
       "description": "O refri mais gelado da cidade.",
       "price": 4.5,
-      "restaurantId": "burger-house"
+      "restaurantId": "burger-spot"
     },
     {
-      "id": "capp",
-      "imagePath": "assets/img/foods/capp.png",
-      "name": "Cappuccino com Chantilly",
+      "id": "contrafile",
+      "imagePath": "assets/img/foods/sirloin.png",
+      "name": "Contra-filé grelhado",
       "description": "Tradicional cappuccino com chantilly",
-      "price": 9.9,
-      "restaurantId": "coffee-corner"
+      "price": 32.0,
+      "restaurantId": "grills-barbecue-and-bar"
     },
     {
-      "id": "espreso",
-      "imagePath": "assets/img/foods/espreso.png",
-      "name": "Super Espreso",
-      "description": "Café espresso duplo. ",
-      "price": 12.5,
-      "restaurantId": "coffee-corner"
+      "id": "terdeloin",
+      "imagePath": "assets/img/foods/tenderloin.png",
+      "name": "Tenderloin",
+      "description": "O tradicional Beef Terndeloin, com nosso tempero especial.",
+      "price": 56.5,
+      "restaurantId": "grills-barbecue-and-bar"
     },
     {
-      "id": "starb",
-      "imagePath": "assets/img/foods/starb.png",
-      "name": "Starbucks Copycat",
-      "description": "O mais pedido da casa. O verdadeiro café americano pura água.",
-      "price": 15.6,
-      "restaurantId": "coffee-corner"
+      "id": "tbone",
+      "imagePath": "assets/img/foods/tbone.png",
+      "name": "T-Bone",
+      "description": "Delicioso T-Bone, acompanha batatas e arroz.",
+      "price": 70.6,
+      "restaurantId": "grills-barbecue-and-bar"
     },
     {
       "id": "zlasagna",
       "imagePath": "assets/img/foods/zlasagna.png",
-      "name": "Lasagna de Zucchini",
-      "description": "Lasagna deliciosa que se salva por causa do queijo",
-      "price": 14.9,
-      "restaurantId": "green-food"
+      "name": "Lasanha de espinafre",
+      "description": "Deliciosa lasanha de espinafre, super saudável.",
+      "price": 45.9,
+      "restaurantId": "organic-shop"
     },
     {
-      "id": "greensandwich",
-      "imagePath": "assets/img/foods/greensandwich.png",
-      "name": "Sanduíche de Frango",
-      "description": "Frango grelhado e salada",
+      "id": "cenoura",
+      "imagePath": "assets/img/foods/cenoura.png",
+      "name": "Suco de cenoura",
+      "description": "Saboroso suco de cenoura.",
       "price": 10.5,
-      "restaurantId": "green-food"
+      "restaurantId": "organic-shop"
     },
     {
-      "id": "ceasar",
-      "imagePath": "assets/img/foods/ceasar.png",
-      "name": "Salada Ceasar",
-      "description": "Clássica salada ceasar.",
-      "price": 33.9,
-      "restaurantId": "green-food"
+      "id": "abacate",
+      "imagePath": "assets/img/foods/abacate.png",
+      "name": "Suco de abacate",
+      "description": "O melhor suco de abacate da vida!!!",
+      "price": 12.0,
+      "restaurantId": "organic-shop"
     },
     {
-      "id": "sunday",
-      "imagePath": "assets/img/foods/sunday.png",
-      "name": "Mega Sunday",
-      "description": "Sunday com várias bolas de sorvete a sua escolha",
-      "price": 21.5,
-      "restaurantId": "ice-cream"
+      "id": "galeto",
+      "imagePath": "assets/img/foods/galeto.png",
+      "name": "Galeto da casa",
+      "description": "O Galeto mais charmoso da cidade, saborei essa delicia!",
+      "price": 43.5,
+      "restaurantId": "hotchicken"
     },
     {
-      "id": "chocpop",
+      "id": "nuggets",
       "imagePath": "assets/img/foods/chocpop.png",
-      "name": "Picolé de Brigadeiro",
-      "description": "Picolé de brigadeiro recheado com côco.",
-      "price": 8.5,
-      "restaurantId": "ice-cream"
+      "name": "Nuggets",
+      "description": "Saboroso nuggets de frango.",
+      "price": 24.5,
+      "restaurantId": "hotchicken"
     },
     {
-      "id": "icestd.png",
+      "id": "chicken-crispy-strips",
       "imagePath": "assets/img/foods/icestd.png",
-      "name": "Sorvete Simples",
-      "description": "Clássico sorvete de rua onde todos os sabores são idênticos.",
-      "price": 1.5,
-      "restaurantId": "ice-cream"
+      "name": "Chicken Crispy Strips",
+      "description": "Deliciosas tiras de frango crocrantes, acompanha molho a sua escolha.",
+      "price": 30.5,
+      "restaurantId": "hotchicken"
     },
     {
-      "id": "cup",
-      "imagePath": "assets/img/foods/cup.png",
-      "name": "Cup Cake de Choc. Branco",
-      "description": "Cup Cake de chocolate branco",
-      "price": 5.5,
-      "restaurantId": "tasty-treats"
+      "id": "burrito",
+      "imagePath": "assets/img/foods/burrito.png",
+      "name": "Burritos",
+      "description": "Direto do méxico, nosso burrito é o mais saboroso que você vai comer.",
+      "price": 15.5,
+      "restaurantId": "mexican"
     },
     {
-      "id": "straw",
-      "imagePath": "assets/img/foods/straw.png",
-      "name": "Bolo de Morango",
-      "description": "Bolo recheado e coberto com morangos",
-      "price": 40.5,
-      "restaurantId": "tasty-treats"
+      "id": "tortilhas",
+      "imagePath": "assets/img/foods/tortilha.png",
+      "name": "tortilha",
+      "description": "A tortilla ou \"tortilha mexicana\" é um género de pão folha, confecionado a partir de farinha de milho ou de trigo. A nossa é a melhor fora do méxico.",
+      "price": 20.5,
+      "restaurantId": "mexican"
     },
     {
-      "id": "cake",
-      "imagePath": "assets/img/foods/cake.png",
-      "name": "Fatia de Bolo",
-      "description": "Fatia de bolo de morango",
-      "price": 5.9,
-      "restaurantId": "tasty-treats"
+      "id": "coke",
+      "imagePath": "assets/img/foods/coke.png",
+      "name": "Refrigerante",
+      "description": "O refri mais gelado da cidade.",
+      "price": 4.5,
+      "restaurantId": "mexican"
+    },
+    {
+      "id": "calabresa",
+      "imagePath": "assets/img/foods/calabresa.png",
+      "name": "Calabresa da casa",
+      "description": "Pizza de calabresa com tempero especial da casa",
+      "price": 45.0,
+      "restaurantId": "pizza-time"
+    },
+    {
+      "id": "bacon",
+      "imagePath": "assets/img/foods/bacon.png",
+      "name": "BaconTOP",
+      "description": "Tiras de bacon suculentas para deixar sua pizza ainda melhor",
+      "price": 50.0,
+      "restaurantId": "pizza-time"
     }
   ],
   "reviews": [
@@ -213,161 +213,161 @@
       "date": "2017-01-23T18:25:43",
       "rating": 4.5,
       "comments": "Tudo muito bom, entrega no tempo certo",
-      "restaurantId": "bread-bakery"
+      "restaurantId": "burger-spot"
     },
     {
       "name": "Aline",
       "date": "2016-12-12T18:25:43",
       "rating": 3,
       "comments": "NÃO recomendo. O recheio é só um creme, não tem camarão e nem carne",
-      "restaurantId": "bread-bakery"
+      "restaurantId": "burger-spot"
     },
     {
       "name": "Renata",
       "date": "2016-12-12T18:25:43",
       "rating": 2,
       "comments": "Não foi muito agradável ao nosso paladar, e eu e meu esposo no outro dia passamos super mal. Pode até ter sido outra coisa, mas...",
-      "restaurantId": "bread-bakery"
+      "restaurantId": "burger-spot"
     },
     {
       "name": "Renata",
       "date": "2016-12-12T18:25:43",
       "rating": 5,
       "comments": "Nunca deixou na mão, comida sempre deliciosa.",
-      "restaurantId": "bread-bakery"
+      "restaurantId": "burger-spot"
     },
     {
       "name": "Daniela",
       "date": "2017-01-23T18:25:43",
       "rating": 4,
       "comments": "Sanduíche muito bom! Já pedi diversas vezes sempre bom!",
-      "restaurantId": "burger-house"
+      "restaurantId": "grills-barbecue-and-bar"
     },
     {
       "name": "Laila",
       "date": "2017-02-02T18:25:43",
       "rating": 5,
       "comments": "Melhor hambúrguer que já provei. Vai ser difícil voltar para mc e bk",
-      "restaurantId": "burger-house"
+      "restaurantId": "grills-barbecue-and-bar"
     },
     {
       "name": "Suzana",
       "date": "2016-12-12T18:25:43",
       "rating": 3.5,
       "comments": "Meu sanduíche chegou frio e todo desmontado =\\",
-      "restaurantId": "burger-house"
+      "restaurantId": "grills-barbecue-and-bar"
     },
     {
       "name": "Eric",
       "date": "2017-01-23T18:25:43",
       "rating": 4.5,
       "comments": "Excelente opção! Recomendo!",
-      "restaurantId": "coffee-corner"
+      "restaurantId": "hotchicken"
     },
     {
       "name": "Amanda",
       "date": "2017-02-02T18:25:43",
       "rating": 2.5,
       "comments": "Demorou muito e o café veio gelado",
-      "restaurantId": "coffee-corner"
+      "restaurantId": "hotchicken"
     },
     {
       "name": "Carla",
       "date": "2016-12-12T18:25:43",
       "rating": 4.8,
       "comments": "Tudo perfeito. Entrega, embalagem, comida. Resultado? Melhor custo beneficio",
-      "restaurantId": "coffee-corner"
+      "restaurantId": "hotchicken"
     },
     {
       "name": "Rodrigo",
       "date": "2016-12-12T18:25:43",
       "rating": 4,
       "comments": "Muito rápida a entrega, mas é caro.",
-      "restaurantId": "coffee-corner"
+      "restaurantId": "hotchicken"
     },
     {
       "name": "André",
       "date": "2016-12-12T18:25:43",
       "rating": 4.5,
       "comments": "Excelente como sempre!",
-      "restaurantId": "coffee-corner"
+      "restaurantId": "hotchicken"
     },
     {
       "name": "João",
       "date": "2017-01-23T18:25:43",
       "rating": 5,
       "comments": "Excelente. Fiz o pedido com outro endereço e quando vi o erro liguei avisando. O motoqueiro cortou a cidade todinha e a comida ainda chegou quentinha (e deliciosa). Estou sempre pedindo e recomendando",
-      "restaurantId": "green-food"
+      "restaurantId": "organic-shop"
     },
     {
       "name": "Marcelo",
       "date": "2017-02-02T18:25:43",
       "rating": 4.5,
       "comments": "Chegou muito rápido, antes mesmo da previsão",
-      "restaurantId": "green-food"
+      "restaurantId": "organic-shop"
     },
     {
       "name": "Fatinha",
       "date": "2017-01-23T18:25:43",
       "rating": 2,
       "comments": "Ñ gostei dos sabores q pedi e achei o preço muito elevado",
-      "restaurantId": "ice-cream"
+      "restaurantId": "organic-shop"
     },
     {
       "name": "Lucas",
       "date": "2017-02-02T18:25:43",
       "rating": 2.5,
       "comments": "Esperar 1:45hr pra receber o pedido é INACEITÁVEL",
-      "restaurantId": "ice-cream"
+      "restaurantId": "organic-shop"
     },
     {
       "name": "Jacira",
       "date": "2017-02-01T18:25:43",
       "rating": 4.5,
       "comments": "Veio OK!",
-      "restaurantId": "ice-cream"
+      "restaurantId": "mexican"
     },
     {
       "name": "Ana",
       "date": "2017-01-23T18:25:43",
       "rating": 5,
       "comments": "Rápido e sempre uma delicia!! Ja pedi 3x e sempre veio rapido e tudo certinho.",
-      "restaurantId": "tasty-treats"
+      "restaurantId": "mexican"
     },
     {
       "name": "Larissa",
       "date": "2017-02-02T18:25:43",
       "rating": 2.5,
       "comments": "A taxa de entrega poderia ser mais barata.",
-      "restaurantId": "tasty-treats"
+      "restaurantId": "mexican"
     },
     {
       "name": "Jarbas",
       "date": "2016-12-15T18:25:43",
       "rating": 4.7,
       "comments": "Excelente e chegou muito rápido!",
-      "restaurantId": "tasty-treats"
+      "restaurantId": "pizza-time"
     },
     {
       "name": "Rafaela",
       "date": "2017-01-12T18:25:43",
       "rating": 5,
       "comments": "Chegou rápido e perfeito!",
-      "restaurantId": "tasty-treats"
+      "restaurantId": "pizza-time"
     },
     {
       "name": "Julia",
       "date": "2016-12-12T18:25:43",
       "rating": 1.5,
       "comments": "Sempre gostei muito dos pedidos que eu fiz, mas dessa vez foi péssimo e decepcionou muito. Demorou 30min a mais pra chegar do que o tempo máximo esperado.",
-      "restaurantId": "tasty-treats"
+      "restaurantId": "pizza-time"
     },
     {
       "name": "Marília",
       "date": "2016-12-20T18:25:43",
       "rating": 4.5,
       "comments": "Taxa de entrega bastante elevada e precisa colocar no app se a pessoa quer porção adicional de algo (calda, crocante etc)",
-      "restaurantId": "tasty-treats"
+      "restaurantId": "pizza-time"
     }
   ],
   "orders": [
