@@ -67,7 +67,7 @@
       "imagePath": "assets/img/foods/salada.png",
       "name": "X-Salada",
       "description": "Tradicional X-Salada que você respeita",
-      "price": 18.0,
+      "price": 18,
       "restaurantId": "burger-spot"
     },
     {
@@ -75,7 +75,7 @@
       "imagePath": "assets/img/foods/misto.png",
       "name": "Misto quente da casa",
       "description": "Delicioso Misto quente, com o toque especial da casa",
-      "price": 12.0,
+      "price": 12,
       "restaurantId": "burger-spot"
     },
     {
@@ -83,7 +83,7 @@
       "imagePath": "assets/img/foods/fritas.png",
       "name": "Fritas",
       "description": "Aquela batata-frita que vai matar sua fome",
-      "price": 8.0,
+      "price": 8,
       "restaurantId": "burger-spot"
     },
     {
@@ -99,7 +99,7 @@
       "imagePath": "assets/img/foods/sirloin.png",
       "name": "Contra-filé grelhado",
       "description": "Tradicional cappuccino com chantilly",
-      "price": 32.0,
+      "price": 32,
       "restaurantId": "grills-barbecue-and-bar"
     },
     {
@@ -139,7 +139,7 @@
       "imagePath": "assets/img/foods/abacate.png",
       "name": "Suco de abacate",
       "description": "O melhor suco de abacate da vida!!!",
-      "price": 12.0,
+      "price": 12,
       "restaurantId": "organic-shop"
     },
     {
@@ -152,7 +152,7 @@
     },
     {
       "id": "nuggets",
-      "imagePath": "assets/img/foods/chocpop.png",
+      "imagePath": "assets/img/foods/nuggets.png",
       "name": "Nuggets",
       "description": "Saboroso nuggets de frango.",
       "price": 24.5,
@@ -160,7 +160,7 @@
     },
     {
       "id": "chicken-crispy-strips",
-      "imagePath": "assets/img/foods/icestd.png",
+      "imagePath": "assets/img/foods/crispy.png",
       "name": "Chicken Crispy Strips",
       "description": "Deliciosas tiras de frango crocrantes, acompanha molho a sua escolha.",
       "price": 30.5,
@@ -172,7 +172,7 @@
       "name": "Burritos",
       "description": "Direto do méxico, nosso burrito é o mais saboroso que você vai comer.",
       "price": 15.5,
-      "restaurantId": "mexican"
+      "restaurantId": "mexican-food"
     },
     {
       "id": "tortilhas",
@@ -180,7 +180,7 @@
       "name": "tortilha",
       "description": "A tortilla ou \"tortilha mexicana\" é um género de pão folha, confecionado a partir de farinha de milho ou de trigo. A nossa é a melhor fora do méxico.",
       "price": 20.5,
-      "restaurantId": "mexican"
+      "restaurantId": "mexican-food"
     },
     {
       "id": "coke",
@@ -188,22 +188,22 @@
       "name": "Refrigerante",
       "description": "O refri mais gelado da cidade.",
       "price": 4.5,
-      "restaurantId": "mexican"
+      "restaurantId": "mexican-food"
     },
     {
       "id": "calabresa",
       "imagePath": "assets/img/foods/calabresa.png",
       "name": "Calabresa da casa",
       "description": "Pizza de calabresa com tempero especial da casa",
-      "price": 45.0,
+      "price": 45,
       "restaurantId": "pizza-time"
     },
     {
       "id": "bacon",
-      "imagePath": "assets/img/foods/bacon.png",
+      "imagePath": "assets/img/foods/pizzabacon.png",
       "name": "BaconTOP",
       "description": "Tiras de bacon suculentas para deixar sua pizza ainda melhor",
-      "price": 50.0,
+      "price": 50,
       "restaurantId": "pizza-time"
     }
   ],
@@ -325,21 +325,21 @@
       "date": "2017-02-01T18:25:43",
       "rating": 4.5,
       "comments": "Veio OK!",
-      "restaurantId": "mexican"
+      "restaurantId": "mexican-food"
     },
     {
       "name": "Ana",
       "date": "2017-01-23T18:25:43",
       "rating": 5,
       "comments": "Rápido e sempre uma delicia!! Ja pedi 3x e sempre veio rapido e tudo certinho.",
-      "restaurantId": "mexican"
+      "restaurantId": "mexican-food"
     },
     {
       "name": "Larissa",
       "date": "2017-02-02T18:25:43",
       "rating": 2.5,
       "comments": "A taxa de entrega poderia ser mais barata.",
-      "restaurantId": "mexican"
+      "restaurantId": "mexican-food"
     },
     {
       "name": "Jarbas",
@@ -414,6 +414,22 @@
         }
       ],
       "id": 2
+    },
+    {
+      "name": "dsdssd sad ",
+      "email": "rs.acacio@gmail.com",
+      "emailConfirmation": "rs.acacio@gmail.com",
+      "address": "dsdsds dasdasd",
+      "number": "232",
+      "optionalAddress": "ssdasdsa",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "x-salada"
+        }
+      ],
+      "id": 3
     }
   ]
 }
